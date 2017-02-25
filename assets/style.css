@@ -42,6 +42,7 @@ h1 {
 	font-size: 16px;
 	border: none;
 	color: #336699;
+	background: transparent;
 }
 
 .navbar-btn:hover {
@@ -60,7 +61,8 @@ h1 {
 #myname {
 	padding-bottom: 22px;
 	padding-top: 2px;
-	margin-left: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
 	background: #336699;
 	color: #fff;
 }
@@ -68,10 +70,6 @@ h1 {
 #myname h1 {
 	text-align: center;
 	color: #fff;
-}
-
-#myname.col-xs-12 {
-	margin-left: 0;
 }
 
 /* Content General */
@@ -89,15 +87,16 @@ h1 {
 
 /* About Page Styling */
 #profile-pic {
-	width: 200px;
+	width: 30%;
 	height: auto;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	border-radius: 5px;
 }
 
 /* Portfolio Page Styling*/
 .thumbnail {
-	width: 270px;
+	width: 100%;
 	height: auto;
 	border: none;
 	margin: 0;
@@ -120,7 +119,7 @@ h1 {
 	position: absolute;
 	bottom: 15px;
 	left: 0;
-	width: 270px;
+	width: 100%;
 	font-size: 1.25em;
 	text-align: center;
 }
@@ -135,14 +134,9 @@ h1 {
 	transform: translateY(4px);
 }
 
-
-/* Sidebar */
+/* Sidebar Styling */
 #sidebar {
 	padding-top: 0;
-}
-
-#sidebar.col-xs-12 {
-	text-align: left;
 }
 
 .fa {
@@ -153,7 +147,9 @@ h1 {
 }
 
 .fa:hover {
+	cursor: pointer;
 	color: #999;
+	transition: color 2s ease-out;
 }
 
 /* Sticky Footer */
@@ -179,6 +175,3 @@ body {
 .footer p {
 	padding-top: 20px;
 }
-
-
-

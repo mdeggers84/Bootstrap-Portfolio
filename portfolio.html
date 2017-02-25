@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width">
+
 	<title>Portfolio</title>
 
-	<!-- Link to Font Aawesome -->
+	<!-- Link to Font Awesome icons -->
 	<script src="https://use.fontawesome.com/83f5b967bd.js"></script>
 
-	<!-- Links to Bootstrap and local stylesheets -->
+	<!-- Bootstrap Stylesheet -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Local stylesheet -->
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 
 </head>
@@ -17,10 +20,10 @@
 	<nav class="navbar navbar-default navbar-static-top">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4" id="myname">
+				<div class="col-md-6" id="myname">
 					<h1>Michael D. Eggers</h1>
 				</div>
-				<div class="col-lg-4 col-lg-offset-3">
+				<div class="col-md-6 text-center">
 					<a href="index.html" class="btn btn-default navbar-btn btn-lg">About</a>
 					|<a href="portfolio.html" class="btn btn-default navbar-btn btn-lg">Portfolio</a>|
 					<a href="contact.html" class="btn btn-default navbar-btn btn-lg">Contact</a>
@@ -30,31 +33,33 @@
 	</nav>
 
 
-
+	<!-- Overall Content Container -->
 	<div class="container" id="content">
 
 		<div class="row">
 
 			<!-- Main Content -->
-			<div class="col-lg-7">
+			<section class="col-md-8">
 				<div class="well" id="main-content">
 					<div class="row">
 
 						<!-- Maint Content Header -->
-						<div class="col-lg-12">
+						<div class="col-md-12">
 							<header class="page-header">
 								<h2 class="header-title">Portfolio</h2>
 							</header>
+						
 
 							<!-- First Row of Thumbnails -->
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-md-6 col-xs-12">
 									<div class="image">
 										<img src="assets/images/ph1.jpeg" class="thumbnail" alt="placeholder" />
 										<a href="#nogo"><span class="banner">Hangman</span></a>
 									</div>
 								</div>
-								<div class="col-lg-6">
+
+								<div class="col-md-6 col-xs-12">
 									<div class="image">
 										<img src="assets/images/ph2.jpeg" class="thumbnail" alt="placeholder" />
 										<a href="#nogo"><span class="banner">RPG Game</span></a>
@@ -64,13 +69,13 @@
 
 							<!-- Second Row of Thumbnails -->
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-md-6 col-xs-12">
 									<div class="image">
 										<img src="assets/images/ph3.jpeg" class="thumbnail" alt="placeholder" />
 										<a href="#nogo"><span class="banner">Trivia Game</span></a>
 									</div>
 								</div>
-								<div class="col-lg-6">
+								<div class="col-md-6 col-xs-12">
 									<div class="image">
 										<img src="assets/images/ph4.jpeg" class="thumbnail" alt="placeholder" />
 										<a href="#nogo"><span class="banner">Rutgers Info Widget</span></a>
@@ -80,7 +85,7 @@
 
 							<!-- Third Row of Thumbnails -->
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-md-6 col-xs-12">
 									<div class="image">
 										<img src="assets/images/ph5.jpeg" class="thumbnail" alt="placeholder" />
 										<a href="#nogo"><span class="banner">Rock Paper Scissors</span></a>
@@ -91,16 +96,16 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 
 			<!-- Sidebar - social network connections -->
-			<div class="col-lg-3 text-center">
+			<aside class="col-md-4 text-center">
 				<div class="well" id="sidebar">
 
 					<!-- Sidebar Header -->
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-md-12">
 							<header class="page-header">
 								<h3 class="header-default">Connect With Me</h3>
 							</header>
@@ -109,14 +114,14 @@
 
 					<!-- Connect Buttons -->
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-md-12">
 							<a href="https://github.com/mdeggers84" target="_blank"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
 							<a href="https://www.linkedin.com/in/michael-eggers-ab827730/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
 							<a href="http://stackoverflow.com/users/7050003/michael-eggers?tab=profile" target="_blank"><i class="fa fa-stack-overflow fa-4x" aria-hidden="true"></i></a>
 						</div>
 					</div>
 				</div>
-			</div>
+			</aside>
 
 		</div>
 	</div>
